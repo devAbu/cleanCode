@@ -1,0 +1,63 @@
+* Variables and constants
+  - Use nouns or short phrases with adjectives
+
+* Functions and methods
+  - use verbs or short phrases with adjectives
+
+* Classes
+  - use nouns or short phrases with nouns
+
+* snake_case
+  - Python
+  - is_valid
+  - variables, functions and methods
+
+* camelCase
+  - Java / JS
+  - isValid
+  - variables, functions and methods
+
+* PascalCase
+  - Python / Java / JS
+  - AdminRole
+  - Classes 
+
+* kebab-case 
+  - HTML 
+  - <side-drawer>
+  - custom element
+
+* Variables and constants and properties
+
+  - Object 
+    - describe the value 
+      - user / database
+      - sqlDatabase
+  - Number or Stings 
+    - describe the value
+      - name / age
+      - firstName
+  - Boolean    
+    - answer a true/false question 
+      - isLogged
+      - isActiveUser
+
+* Functions and methods
+
+  - Performs an operation
+    - describe the operation
+    - getUser() / send()
+    - getUserByEmail()
+
+  - Computes a boolean
+    - answer a true/false question
+    - isValid() / isPaid()
+    - emailIsValid()
+
+* Classes
+
+  - Describe the Object
+    - User / Product / Course
+
+    Get/Set
+      - access as property
