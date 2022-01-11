@@ -60,4 +60,18 @@
     - User / Product / Course
 
     Get/Set
-      - access as property
+      - access as property 
+
+*** 
+  Don't include redundant information 
+
+  Slang 
+
+  Unclear Abbreviations
+
+  Disinformation
+
+  Choose Distinctive Names
+
+  Be Consistent
+*** 

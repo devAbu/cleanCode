@@ -1,0 +1,16 @@
+from datetime import datetime
+
+class Entity:
+  def __init__(self, title, description, ymdhm):
+    self.title = title
+    self.description = description
+    self.ymdhm = ymdhm
+
+def output(item):
+  print("Title: "+ item.title)
+  print("Description: "+ item.description)
+  print("Date: "+ item.ymdhm)
+
+summary = 'Clean Code Is Great'
+description = 'Actually, writing cleancode can be pretty fun. You\'ll see!"
+new_date = datetime.now()
