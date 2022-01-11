@@ -12,5 +12,10 @@ def output(item):
   print("Date: "+ item.ymdhm)
 
 summary = 'Clean Code Is Great'
-description = 'Actually, writing cleancode can be pretty fun. You\'ll see!"
+desc = 'Actually, writing cleancode can be pretty fun. You\'ll see!'
 new_date = datetime.now()
+publish = new_date.strftime('%Y-%m-%d %H:%M')
+
+item = Entity(summary, desc, publish)
+
+output(item)
