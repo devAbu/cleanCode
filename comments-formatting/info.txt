@@ -1,0 +1,32 @@
+Almost all comments are bad
+
+AVOID COMMENTS - there is few exceptions
+  -- Redundant information
+  -- Dividers / Block Markers
+  -- Misleading comments
+  -- Commented-Out Code
+
+EXCEPTIONS - good comments
+  -- Legal information
+  -- Add explanation, which can't ne replaced by good naming
+  -- Warnings
+  -- Todo
+  -- Documentation Strings
+
+Formatting
+  - Vertical - from top to bottom
+    - Space between Lines
+    - Grouping of Code
+
+    - Consider splitting files with multiple concepts (classes) into multiple files
+    - Different concepts (area) should be separated by spacing
+    - Similar concepts (area) should not be separated by spacing
+    - Related concepts should be kept close to each other
+  
+  - Horizontal - one line
+    - Indentation
+    - Space between Code
+    - Line Width
+
+    - Break long statements into multiple shorter ones
+    - Unreadable long names
