@@ -6,10 +6,10 @@ class BlogPost:
     self.description = description
     self.date_published = date_published
 
-def print_blog_post(blog_post):
-  print("Title: "+ blog_post.title)
-  print("Description: "+ blog_post.description)
-  print("Date: "+ blog_post.date_published)
+  def print(self):
+    print("Title: "+ self.title)
+    print("Description: "+ self.description)
+    print("Date: "+ self.date_published)
 
 title = 'Clean Code Is Great'
 description = 'Actually, writing cleancode can be pretty fun. You\'ll see!'
@@ -18,4 +18,4 @@ formatted_date = now.strftime('%Y-%m-%d %H:%M')
 
 blog_post = BlogPost(title, description, formatted_date)
 
-print_blog_post(blog_post)
+blog_post.print()
