@@ -23,19 +23,41 @@ if (!isEmail(email)) {
 
 // body
 
+function handleCreateUserRequest(request) {
+  try {
+    createUser("test@test.com", "123456");
+  } catch (err) {
+    showError(err.message);
+  }
+}
 // too far away from the name
 function createUser(email, password) {
-  // low level
-  if (!email || !email.includes("@") || !password || password.trim() !== "") {
-    console.log("invalid input");
-    return;
-  }
+  validateInput(email, password);
 
+  saveUser(email, password);
+}
+
+function validateInput(email, password) {
+  if (inputIsNotValid) {
+    /* showError("Invalid email or password");
+    return; */
+    throw new Error("Invalid email or password");
+  }
+}
+
+function inputIsNotValid(email, password) {
+  return !email || !email.includes("@") || !password || password.trim() === "";
+}
+
+function showError() {
+  console.log(message);
+}
+
+function saveUser(email, password) {
   const user = {
     email: email,
     password: password,
   };
 
-  // high level
   database.insert(user);
 }
