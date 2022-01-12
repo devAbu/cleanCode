@@ -173,3 +173,30 @@ function sumUp(...numbers) {
 
 const total = sumUp(10, 19, -3, 22, 5, 100);
 //const total = sumUp([10, 19, -3, 22, 5, 100]);
+
+// TRY TO AVOID OUTPUT ARGUMENTS - especially if they are unexpected
+function createId(user) {
+  // addId - better
+  user.id = "u1"; // output
+}
+
+const user = { name: "Max" };
+createId(user);
+
+console.log(user);
+
+// object-oriented - user.addId()
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+
+  addId() {
+    this.id = "u1";
+  }
+}
+
+const customer = new User("Abu");
+customer.addId();
+
+console.log(customer);
