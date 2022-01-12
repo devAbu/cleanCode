@@ -26,3 +26,11 @@ Method is just a function inside object
         - includes()
     
     - Try not to mix multiple levels of abstraction in one of the same function
+
+  - Rule of Thumb
+    - Extract code that works on the same functionality
+      - user.setAge(31)...user.setName('Max')
+      - user.update({age: 31, name: 'Max'})
+    - Extract code that requires more interpretation than the surrounding code
+      - if(!email.includes('@')){...} ... saveNewUser(email) -- mix levels
+      - if(!isValid(email)){...} ... saveNewUser(email) -- same level
