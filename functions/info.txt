@@ -14,3 +14,15 @@ Method is just a function inside object
   - >3 - always avoid
 
 *** Functions Should be small
+  - Functions Should Do Exactly One Thing
+    - Different Operations
+      - Validate + Save User Input
+    - Different Levels of Abstraction
+      - High Level
+        - function which has a descriptive name and then does something
+        - isEmail()
+      - Low Level
+        - low level API method / operation
+        - includes()
+    
+    - Try not to mix multiple levels of abstraction in one of the same function
