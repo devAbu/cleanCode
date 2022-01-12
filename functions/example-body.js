@@ -20,3 +20,22 @@ if (!isEmail(email)) {
 } else {
   saveNewUser(email);
 }
+
+// body
+
+// too far away from the name
+function createUser(email, password) {
+  // low level
+  if (!email || !email.includes("@") || !password || password.trim() !== "") {
+    console.log("invalid input");
+    return;
+  }
+
+  const user = {
+    email: email,
+    password: password,
+  };
+
+  // high level
+  database.insert(user);
+}
