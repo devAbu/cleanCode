@@ -1,0 +1,14 @@
+Method is just a function inside object
+
+- Calling the function should be readable
+  - The number and order of arguments matters
+
+- Working with the function should be easy / readable
+  - The length of the function body matters
+
+*** Minimize the number of parameters
+  - None - best possible option - not always possible
+  - 1 - very good possible option
+  - 2 - use with caution
+  - 3 - avoid if possible
+  - >3 - always avoid
