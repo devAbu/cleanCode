@@ -15,3 +15,12 @@
 - Classes
   - Should be small
     - Classes should have a single responsibility (Single-Responsibility Principle --> SRP)
+
+  - Cohesion
+    - how well the methods of a class are using the class properties
+      - Maximum Cohesion -- GOAL (HIGHLY COHESIVE CLASSES)
+        - All methods each use all properties
+        - A highly cohesion object
+      - No Cohesion -- AVOID
+        - All methods don't use the class properties
+        - Data structure / container with utility methods
