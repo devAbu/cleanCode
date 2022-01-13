@@ -1,0 +1,13 @@
+*** The Difference between Objects & Data Structures / Container
+  - Objects
+    - Private internals / properties, public API (methods)
+    - Contain your business login (in OOP)
+    - Abstractions over concretions
+  
+  - Data Structures / Container
+    - Public internals / properties, (almost) no API (methods)
+    - Store and transport data
+    - Concretions only
+ 
+- POLYMORPHISM
+  - It is simply an object or a method, which always has the same structure and the same name, but which then does different things
