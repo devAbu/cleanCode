@@ -52,3 +52,10 @@ Method is just a function inside object
       - an operation which does not just act on function inputs and change the function output but which instead changes the overall system / program state
       - are not automatically bad - we do need them in our program
       - Unexpected side affects should be avoided
+
+  - UNIT TESTING
+    - Can you easily test a function
+      - YES
+        - GREAT
+      - NO
+        - Consider splitting it
