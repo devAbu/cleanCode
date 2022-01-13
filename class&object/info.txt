@@ -24,3 +24,7 @@
       - No Cohesion -- AVOID
         - All methods don't use the class properties
         - Data structure / container with utility methods
+
+  - Law of Demeter
+    - this.customer.lastPurchase.date --> AVOID
+    - Principle of Least Knowledge: Don't depend on the internals of "strangers" (other objects which you don't directly know)
