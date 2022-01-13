@@ -9,5 +9,9 @@
     - Store and transport data
     - Concretions only
  
-- POLYMORPHISM
+- POLYMORPHISM - The ability of an object to take on many forms
   - It is simply an object or a method, which always has the same structure and the same name, but which then does different things
+
+- Classes
+  - Should be small
+    - Classes should have a single responsibility (Single-Responsibility Principle --> SRP)
