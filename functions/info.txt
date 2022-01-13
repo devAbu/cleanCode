@@ -34,3 +34,21 @@ Method is just a function inside object
     - Extract code that requires more interpretation than the surrounding code
       - if(!email.includes('@')){...} ... saveNewUser(email) -- mix levels
       - if(!isValid(email)){...} ... saveNewUser(email) -- same level
+
+  - DRY - DON'T REPEAT YOURSELF
+  - code duplication and repeating yourself
+    - same task / logic - not always the same code
+
+  - Split Functions Reasonably
+    - Don't split if 
+      - you're just renaming the operation
+      - finding the new function will take longer than reading the extracted code
+      - can't produce a reasonable name for the extracted function
+
+  - Try Keeping Functions Pure
+    - The same input always yields the same output
+      - predictable
+    - no side effects
+      - an operation which does not just act on function inputs and change the function output but which instead changes the overall system / program state
+      - are not automatically bad - we do need them in our program
+      - Unexpected side affects should be avoided
